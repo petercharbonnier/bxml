@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25" zv="Cache for Windows (x86-64) 2017.1.1 (Build 111U_SU)" ts="2021-02-02 11:48:59">
+<Class name="BeerXML.Recipe">
+<Super>%RegisteredObject,%XML.Adaptor</Super>
+<TimeChanged>65777,42277.726386</TimeChanged>
+<TimeCreated>65777,42199.392852</TimeCreated>
+
+<Parameter name="XMLNAME">
+<Default>NAME</Default>
+</Parameter>
+
+<Parameter name="XMLTYPE">
+<Default>TYPE</Default>
+</Parameter>
+
+<Parameter name="XMLDATE">
+<Default>DATE</Default>
+</Parameter>
+
+<Parameter name="XMLIBU">
+<Default>IBU</Default>
+</Parameter>
+
+<Parameter name="XMLABV">
+<Default>ABV</Default>
+</Parameter>
+
+<Parameter name="XMLIGNOREINVALIDATTRIBUTE">
+<Default>1</Default>
+</Parameter>
+
+<Parameter name="XMLIGNOREINVALIDTAG">
+<Default>1</Default>
+</Parameter>
+
+<Property name="NAME">
+<Type>%String</Type>
+</Property>
+
+<Property name="TYPE">
+<Type>%String</Type>
+</Property>
+
+<Property name="DATE">
+<Type>%String</Type>
+</Property>
+
+<Property name="IBU">
+<Type>%String</Type>
+</Property>
+
+<Property name="ABV">
+<Type>%String</Type>
+</Property>
+
+<Method name="Import1">
+<ClassMethod>1</ClassMethod>
+<Implementation><![CDATA[
+	//Set I = 1 for taplist position of imported beer.
+	//S I=1
+	
+    // Create an instance of %XML.Reader
+    Set reader = ##class(%XML.Reader).%New()
+
+    // Begin processing of the file
+    Set status = reader.OpenFile("c:\blonde.xml")
+    If $$$ISERR(status) {do $System.Status.DisplayError(status)}
+
+    // Associate a class name with the XML element name
+    Do reader.Correlate("RECIPE","BeerXML.Recipe")
+	
+	// For now, let's just make a compact global for the .csp page to use. 
+	// ^TAPLIST($H)=BEERNAME^BEERTYPE^BREWDATE^HOP1NAME^HOP2NAME^HOP3NAME^MALT1NAME^MALT2NAME^MALT3NAME^IBU^ABV        
+    // Read objects from xml file
+    While (reader.Next(.object,.status)) {
+        Write object.NAME,!,object.TYPE,!,object.DATE,!,object.IBU,!,object.ABV,!
+        Set BEERONE=object.NAME
+        Set ^TAPLIST(BEERONE)=object.NAME_"^"_object.TYPE_"^"_object.DATE_"^"_"^"_"^"_"^"_"^"_"^"_"^"_object.IBU_"^"_object.ABV
+    }
+    
+    // If error found during processing, show it
+    If $$$ISERR(status) {do $System.Status.DisplayError(status)
+    }
+    
+    D ##class(BeerXML.Hops).Import2(BEERONE)
+    D ##class(BeerXML.Malt).Import3(BEERONE)
+]]></Implementation>
+</Method>
+</Class>
+</Export>

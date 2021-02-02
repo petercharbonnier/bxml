@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25" zv="Cache for Windows (x86-64) 2017.1.1 (Build 111U_SU)" ts="2021-02-02 11:49:15">
+<Class name="BeerXML.Malt">
+<Super>%RegisteredObject,%XML.Adaptor</Super>
+<TimeChanged>65777,42336.535301</TimeChanged>
+<TimeCreated>65777,42336.535301</TimeCreated>
+
+<Parameter name="XMLNAME">
+<Default>NAME</Default>
+</Parameter>
+
+<Parameter name="XMLIGNOREINVALIDATTRIBUTE">
+<Default>1</Default>
+</Parameter>
+
+<Parameter name="XMLIGNOREINVALIDTAG">
+<Default>1</Default>
+</Parameter>
+
+<Property name="NAME">
+<Type>%String</Type>
+</Property>
+
+<Method name="Import3">
+<ClassMethod>1</ClassMethod>
+<FormalSpec>BEERONE</FormalSpec>
+<Implementation><![CDATA[
+	
+    // Create an instance of %XML.Reader
+    Set reader = ##class(%XML.Reader).%New()
+
+    // Begin processing of the file
+    Set status = reader.OpenFile("c:\blonde.xml")
+    If $$$ISERR(status) {do $System.Status.DisplayError(status)}
+
+    // Associate a class name with the XML element name
+    Do reader.Correlate("FERMENTABLE","MyApp.Malt")
+	
+	// For now, let's just make a compact global for the .csp page to use. 
+	// ^TAPLIST($H)=BEERNAME^BEERTYPE^BREWDATE^HOP1NAME^HOP2NAME^HOP3NAME^MALT1NAME^MALT2NAME^MALT3NAME^IBU^ABV        
+    // Read objects from xml file
+    Set I=6
+    While (reader.Next(.object,.status)),I<9 {
+	    Write object.NAME,!
+        Set $P(^TAPLIST(BEERONE),"^",I)=object.NAME
+        S I=I+1
+    }
+    
+    // If error found during processing, show it
+    If $$$ISERR(status) {do $System.Status.DisplayError(status)
+    }
+]]></Implementation>
+</Method>
+</Class>
+</Export>
