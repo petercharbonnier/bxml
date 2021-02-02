@@ -1,0 +1,414 @@
+<RECIPES>
+<RECIPE>
+ <NAME>American Blond USB</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>952</BREWER>
+ <ASST_BREWER>JZ 9/11</ASST_BREWER>
+ <BATCH_SIZE>821.4343571</BATCH_SIZE>
+ <BOIL_SIZE>896.9848672</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>68.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Chinook</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>13.0000000</ALPHA>
+ <AMOUNT>0.3401940</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Strong versatile bittering hop
+Used for: Ales, porters, stouts
+Aroma: Heavy and spicy aroma
+Substitutes: Galena, Eroica, Nugget, Bullion
+Examples: Sierra Nevada Stout, Sierra Nevada Celebration Ale</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>3.6000000</BETA>
+ <HSI>42.0000000</HSI>
+ <DISPLAY_AMOUNT>12.00 oz</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 oz</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Mosaic (HBC 369)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.2500000</ALPHA>
+ <AMOUNT>0.2267960</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>10.0000000</TIME>
+ <NOTES>Available in quantity for the first time after 2012 harvest. Still known to many as HBC 369. A daughter of Simcoe crossed with a Nugget derived male. An excellent aroma variety.
+Used for: Ales, IPA, Experimental Ales
+Aroma: Rich in mango, lemon, citrus, pine, and notably, blueberry.
+Substitutes: Unknown
+Storage: Good (25% AA after 6 months at 20 C)
+11-13.5% AA / 3.2-3.9% Beta</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>8.00 oz</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 oz</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Brewer&#39;s Malt, 2-Row, Premium (Great Western)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>99.7902400</AMOUNT>
+ <YIELD>80.0000000</YIELD>
+ <COLOR>2.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER>Great Western</SUPPLIER>
+ <NOTES>Premium 2-Row Malt (1.8-2.2&#176;L) 
+Our most popular base malt, perfect for all beer styles, especially American ales and lagers. With moderate protein and enzyme levels and a very clean, smooth finish, our Premium 2-Row Malt is ideal for all-malt beers and for mashes containing moderate levels of adjunct. </NOTES>
+ <COARSE_FINE_DIFF>1.1000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>141.0000000</DIASTATIC_POWER>
+ <PROTEIN>12.5000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>220 lbs</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 oz</INVENTORY>
+ <POTENTIAL>1.0368000</POTENTIAL>
+ <DISPLAY_COLOR>2.0 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>BEST Heidelberg (BESTMALZ)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>74.8426800</AMOUNT>
+ <YIELD>83.8000000</YIELD>
+ <COLOR>1.4720812</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>BESTMALZ</SUPPLIER>
+ <NOTES>BEST Heidelberg is used especially for brewing beers extremely light in color. It forms an excellent `light&#180; and enzymerich foundation for almost all beer styles. Malt characteristics: low protein levels, high extract content, very light color and high enzymatic activity. </NOTES>
+ <COARSE_FINE_DIFF>1.2000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.9000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>9.5000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>165 lbs</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 oz</INVENTORY>
+ <POTENTIAL>1.0385480</POTENTIAL>
+ <DISPLAY_COLOR>1.5 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Cara-Pils/Dextrine</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>9.0718400</AMOUNT>
+ <YIELD>72.0000000</YIELD>
+ <COLOR>2.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Significantly increases foam/head retention and body of the beer.
+Also sold under the names &#34;Dextrine&#34; and &#34;Cara-Foam&#34;</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>13.2000000</PROTEIN>
+ <MAX_IN_BATCH>20.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>20 lbs</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 oz</INVENTORY>
+ <POTENTIAL>1.0331200</POTENTIAL>
+ <DISPLAY_COLOR>2.0 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Calcium Chloride</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.113398</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Alters water profile and pH of mash.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>4.00 oz</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 oz</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>5.00 gal</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Gypsum (Calcium Sulfate)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.056699</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Reduces PH of water for mashing and sparging.   Alters water profile -- used to harden soft water.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>2.00 oz</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 oz</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>5.00 gal</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Whirlfloc Tablet</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.028000</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Clarity</USE_FOR>
+ <NOTES>Aids in clearing yeast and chill haze.  Easy to use tablet form.</NOTES>
+ <DISPLAY_AMOUNT>28.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>5.00 gal</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Yeast Nutrient</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Other</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.213915</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Fermentation</USE_FOR>
+ <NOTES>Gives yeast nutrients for healthy fermentation.  Not needed for most beers, but good for those with a high percentage of adjuncts.  Add before yeast.</NOTES>
+ <DISPLAY_AMOUNT>43.40 tsp</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 tsp</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>5.00 gal</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>American Ale</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Liquid</FORM>
+ <AMOUNT>0.1242088</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>Wyeast Labs</LABORATORY>
+ <PRODUCT_ID>1056</PRODUCT_ID>
+ <MIN_TEMPERATURE>15.5555556</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>22.2222222</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>75.0000000</ATTENUATION>
+ <NOTES>Soft, smooth, clean finish.  Very well balanced.  Very versitile -- works well with many ale styles.</NOTES>
+ <BEST_FOR>American Pale Ale, Scottish Ale, Porters, Sweet Stout, Barley Wine, Alt</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>124.21 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>60.0 F</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>72.0 F</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>13 Jun 2003</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>Blonde Ale</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Light Hybrid Beer</CATEGORY>
+ <CATEGORY_NUMBER>6</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0380000</OG_MIN>
+ <OG_MAX>1.0540000</OG_MAX>
+ <FG_MIN>1.0080000</FG_MIN>
+ <FG_MAX>1.0130000</FG_MAX>
+ <IBU_MIN>15.0000000</IBU_MIN>
+ <IBU_MAX>28.0000000</IBU_MAX>
+ <COLOR_MIN>3.0000000</COLOR_MIN>
+ <COLOR_MAX>6.0000000</COLOR_MAX>
+ <CARB_MIN>2.4000000</CARB_MIN>
+ <CARB_MAX>2.8000000</CARB_MAX>
+ <ABV_MAX>5.5000000</ABV_MAX>
+ <ABV_MIN>3.8000000</ABV_MIN>
+ <NOTES>Easy-drinking, approachable, maltoriented American craft beer. Currently produced by many (American) microbreweries and brewpubs. Regional variations exist (many West Coast brewpub examples are more assertive, like pale ales) but in most areas this beer is designed as the entry-level craft beer. In addition to the more common American Blonde Ale, this category can also include modern English Summer Ales, American K&#246;lsch-style beers, and less assertive American and English pale ales.</NOTES>
+ <PROFILE>Aroma: Light to moderate sweet malty aroma. Low to moderate fruitiness is optional, but acceptable. May have a low to medium hop aroma, and can reflect almost any hop variety. No diacetyl.
+Appearance: Light yellow to deep gold in color. Clear to brilliant. Low to medium white head with fair to good retention.
+Flavor: Initial soft malty sweetness, but optionally some light character malt flavor (e.g., bread, toast, biscuit, wheat) can also be present. Caramel flavors typically absent. Low to medium esters optional, but are commonly found in many examples. Light to moderate hop flavor (any variety), but shouldn&#8217;t be overly aggressive. Low to medium bitterness, but the balance is normally towards the malt. Finishes medium-dry to somewhat sweet. No diacetyl.
+Mouthfeel: Medium-light to medium body. Medium to high carbonation. Smooth without harsh bitterness or astringency.</PROFILE>
+ <INGREDIENTS>Generally all malt, but can include up to 25% wheat malt and some sugar adjuncts. Any hop variety can be used. Clean American, lightly fruity English, or K&#246;lsch yeast. May also be made with lager yeast, or cold-conditioned. Some versions may have honey, spices and/or fruit added, although if any of these ingredients are stronger than a background flavor they should be entered in specialty, spiced or fruit beer categories instead. Extract versions should only use the lightest malt extracts and avoid kettle caramelization.</INGREDIENTS>
+ <EXAMPLES>Pelican Kiwanda Cream Ale, Russian River Aud Blonde, Rogue Oregon Golden Ale, Widmer Blonde Ale, Fuller&#39;s Summer Ale, Hollywood Blonde, Redhook Blonde</EXAMPLES>
+ <DISPLAY_OG_MIN>1.038 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.054 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.008 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.013 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>3.0 SRM</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>6.0 SRM</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.038-1.054 SG</OG_RANGE>
+ <FG_RANGE>1.008-1.013 SG</FG_RANGE>
+ <IBU_RANGE>15.0-28.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.40-2.80 Vols</CARB_RANGE>
+ <COLOR_RANGE>3.0-6.0 SRM</COLOR_RANGE>
+ <ABV_RANGE>3.80-5.50 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Populuxe 7bbl</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>896.9848672</BOIL_SIZE>
+ <BATCH_SIZE>821.4343571</BATCH_SIZE>
+ <TUN_VOLUME>821.4343571</TUN_VOLUME>
+ <TUN_WEIGHT>226.7960000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.1200000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>37.8541178</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>0.2110076</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>103.3417417</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>125.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES></NOTES>
+ <DISPLAY_BOIL_SIZE>236.96 gal</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>217.00 gal</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>217.00 gal</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>500 lbs</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 gal</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>10.00 gal</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>27.30 gal</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 gal</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Populuxe, 1 Steps, Medium Body</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>21.1111111</GRAIN_TEMP>
+ <TUN_TEMP>15.5555556</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.2000000</PH>
+ <TUN_WEIGHT>8000.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.1200000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES></NOTES>
+ <DISPLAY_GRAIN_TEMP>70.0 F</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>60.0 F</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>168.0 F</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>500 lbs</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>431.1820610</INFUSE_AMOUNT>
+ <STEP_TIME>45.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>4.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 141.21 gal of water at 162.7 F</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.125 qt/lb</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 gal</DECOCTION_AMT>
+ <INFUSE_TEMP>162.7 F</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>152.0 F</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>141.21 gal</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Temperature</TYPE>
+ <INFUSE_AMOUNT>0.1010830</INFUSE_AMOUNT>
+ <STEP_TIME>5.0000000</STEP_TIME>
+ <STEP_TEMP>75.5555556</STEP_TEMP>
+ <RAMP_TIME>4.0000000</RAMP_TIME>
+ <END_TEMP>75.5555556</END_TEMP>
+ <DESCRIPTION>Add 0.03 gal of water and heat to 168.0 F over 4 min</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.395 qt/lb</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 gal</DECOCTION_AMT>
+ <INFUSE_TEMP>168.0 F</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>168.0 F</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>0.03 gal</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES>Goal:
+- Summer thirst quencher
+- Quick and easy to make
+- Balanced
+
+1.0
+- Based on &#34;Brewing classic styles&#34;
+
+2.0 
+- making it more of a west coast blond
+
+Tasting notes 10/25 - growler
+
+- APPEARANCE yellow, goldern straw, as clear as we can get it, medium head retention
+- slightly under carbonated
+- AROMA - grainy, light and subtle fruit, hint of lemon, honey, some strawberry, touch &#34;mucky&#34;
+- MOUTHFEEL - nice, medium body, easy drinking
+- FLAVOR - balanced, 2-row comes through, the C10 gives it just about right amount of sweetness, dont get much pilsener straw character. Clean. Late Amarillo comes through just right.
+- OVER ALL - Nice, easy drinking, maybe touch flaby.
+
+Consider changing:
+Bittering hops to a noble kind for a &#34;beery&#34; and spicy character - maybe
+Move the balance towards the Pilsener malt for more bready garainines
+Consider changing Amarillo addition to 5 min with no whirlpool for simplicity and to crisp it up
+
+
+
+</NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0470000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+ <PRIMARY_AGE>5.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>16.6666667</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>18.3333333</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>10.0000000</AGE>
+ <AGE_TEMP>0.0000000</AGE_TEMP>
+ <CARBONATION_USED>Keg with 12.54 PSI</CARBONATION_USED>
+ <FORCED_CARBONATION>FALSE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Forced Carbonation</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>7.2222222</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>45.0 F</DISPLAY_CARB_TEMP>
+ <DATE>24 Jun 2020</DATE>
+ <EST_OG>1.047 SG</EST_OG>
+ <EST_FG>1.011 SG</EST_FG>
+ <EST_COLOR>3.3 SRM</EST_COLOR>
+ <IBU>20.8 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>4.8 %</EST_ABV>
+ <ABV>4.9 %</ABV>
+ <ACTUAL_EFFICIENCY>85.5 %</ACTUAL_EFFICIENCY>
+ <CALORIES>155.0 kcal/12oz</CALORIES>
+ <DISPLAY_BATCH_SIZE>217.00 gal</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>236.96 gal</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.047 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>62.0 F</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>65.0 F</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>65.0 F</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>32.0 F</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>
